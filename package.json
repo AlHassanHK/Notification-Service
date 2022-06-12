@@ -1,0 +1,20 @@
+{
+  "name": "rabbit-notifications-service",
+  "version": "1.0.0",
+  "description": "notifications service",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": "^14"
+  }
+}
